@@ -2,6 +2,7 @@
 body {
     background-color: #14279B;
     margin: 0;
+    text-align: center;
 }
 div {
     background-color: #3D56B2;
@@ -12,5 +13,35 @@ h1 {
 }
 
 /*********** CLASS SELECTORS ***********/
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+}
+
+.bottom-container {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+
+.top-cloud {
+    position: absolute;
+    right:300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    
+}
 
 /*********** ID SELECTORS ***********/
